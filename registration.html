@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <title>Mighty Ducks Hockey League</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About MDHL</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./game_info.html">Game Information</a>
+        <a href="./rules.html">Rules</a>
+        <a href="#" class="active-yellow">Registration</a>
+      </nav>
+      <h1>Mighty Ducks Hockey League</h1>
+    </header>
+    <main>
+      <figure class="logo__img">
+        <img
+          src="./assets/images/logo.png"
+          alt="Mighty Ducks Hockey League logo"
+        />
+      </figure>
+      <section class="content--table">
+        <h2>Registration</h2>
+        <form action="./show_data.html" method="get">
+          <fieldset>
+            <h4>Personal Information:</h4>
+            <div class="form__flname">
+              <label>
+                Player's First Name:
+                <input type="text" name="first_name" />
+              </label>
+              <label>
+                Last Name:
+                <input type="text" name="last_name" />
+              </label>
+            </div>
+            <div class="form__street">
+              <label>
+                Street Adress:
+                <input type="text" name="street_address" />
+              </label>
+            </div>
+            <div class="form__cityzip">
+              <label>
+                City:
+                <input type="text" name="city" />
+              </label>
+              <label>
+                Zip Code:
+                <input type="text" name="zip_code" />
+              </label>
+            </div>
+            <div class="form__birthgender">
+              <span>
+                <label>
+                  Birth Date (mm/dd/yyyy):
+                  <input type="text" name="birth_date" />
+                </label>
+              </span>
+              <span>
+                Gender:
+                <label>
+                  <input type="radio" name="gender" value="Male" />
+                  Male
+                </label>
+                <label>
+                  <input type="radio" name="gender" value="Female" />
+                  Female
+                </label>
+              </span>
+            </div>
+            <div class="form__choice">
+              Grade:
+              <label>
+                <input type="radio" name="grade" value="pre-school" />
+                Pre-School
+              </label>
+              <label>
+                <input type="radio" name="grade" value="1st" />
+                1st
+              </label>
+              <label>
+                <input type="radio" name="grade" value="2nd" />
+                2nd
+              </label>
+              <label>
+                <input type="radio" name="grade" value="3rd" />
+                3rd
+              </label>
+              <label>
+                <input type="radio" name="grade" value="4th" />
+                4th
+              </label>
+              <label>
+                <input type="radio" name="grade" value="5th" />
+                5th
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <h4>Which elementary school do you live near?</h4>
+            <div class="form__choice">
+              <h4>Closest School:</h4>
+              <select name="closest_school">
+                <option value="" selected disabled hidden>Choose here</option>
+                <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                <option value="Marjorie P Hart">Marjorie P Hart</option>
+                <option value="Greenbay">Greenbay</option>
+                <option value="North Elementary">North Elementary</option>
+                <option value="Howard A Yeager">Howard A Yeager</option>
+              </select>
+            </div>
+          </fieldset>
+          <fieldset>
+            <h4>
+              What position(s) do you normally play? (check all that apply)
+            </h4>
+            <div class="form__choice">
+              <label>
+                <input type="checkbox" name="position" value="Forward" />
+                Forward
+              </label>
+              <label>
+                <input type="checkbox" name="position" value="Midfield" />
+                Midfield
+              </label>
+              <label>
+                <input type="checkbox" name="position" value="Defense" />
+                Defense
+              </label>
+              <label>
+                <input type="checkbox" name="position" value="Goalkeeper" />
+                Goalkeeper
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <h4>Uniform Size:</h4>
+            <div class="form__choice">
+              <label>
+                <input type="radio" name="size" value="Youth Small" />
+                Youth Small
+              </label>
+              <label>
+                <input type="radio" name="size" value="Youth Medium" />
+                Youth Medium
+              </label>
+              <label>
+                <input type="radio" name="size" value="Youth Large" />
+                Youth Large
+              </label>
+              <label>
+                <input type="radio" name="size" value="Small" />
+                Small
+              </label>
+              <label>
+                <input type="radio" name="size" value="Medium" />
+                Medium
+              </label>
+              <label>
+                <input type="radio" name="size" value="Large" />
+                Large
+              </label>
+              <label>
+                <input type="radio" name="size" value="Extra-Large" />
+                Extra-Large
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <h4>Permission to Play</h4>
+            <p>
+              I, the parent or guardian of the minor registrant, agree that the
+              registrant and I will abide by all the rules of the Mighty Ducks
+              Hockey League (MDHL). In recognizing the possibility of physical
+              injury associated with hockey and in consideration for the
+              “League” accepting the registrant for its hockey programs and
+              activities, I here by release, discharge, and/or otherwise
+              indemnify MDHL, their employees and associated personnel and
+              volunteers, including the facilities used for practices and games,
+              against any claim by or on behalf of the registrant as a result of
+              the registrant's participation in the programand/orbeing
+              transported to or from MDHL sponsored activities, which
+              transportation
+            </p>
+            <p>
+              By signing below, I here by agree and authorizethe above. In
+              addition, by entering your name below, I also acknowledge that I
+              have read the cancellation policy and agree to its terms.
+            </p>
+            <div class="form__choice">
+              <label>
+                Parent/Guardian/Signature:
+                <input type="text" name="parent_guardian" id="signature" />
+              </label>
+              <label>
+                Date:
+                <input type="text" name="Date" />
+              </label>
+            </div>
+          </fieldset>
+          <div class="form__submit">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </section>
+      <div class="content__img">
+        <figure>
+          <img
+            class="image"
+            src="./assets/images/img1.jpg"
+            alt="First image kid playing hockey"
+          />
+        </figure>
+        <figure>
+          <img
+            class="image"
+            src="./assets/images/img2.jpg"
+            alt="Second image kid playing hockey"
+          />
+        </figure>
+        <figure>
+          <img
+            class="image"
+            src="./assets/images/img3.jpg"
+            alt="Third image kid playing hockey"
+          />
+        </figure>
+      </div>
+    </main>
+    <footer><p>Made by Christian Ariel Costa Liloff || Cohort 35</p></footer>
+  </body>
+</html>
